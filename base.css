@@ -12,3 +12,4 @@ table{
   table tr:nth-child(odd){
     background-color: #eee
   }
+  strong { border-bottom: double 3px; }
