@@ -19,7 +19,7 @@ table{
     padding: 5pt 0.5em;/*上下 左右の余白*/
     background: transparent;/*背景透明に*/
     box-shadow: 3px 3px rgba(0,0,0,0.2);
-    border: gray 2px solid; 
+    border: gray 2px solid;
   }
   p{
     font-size: 16pt;
