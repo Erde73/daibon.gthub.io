@@ -1,31 +1,38 @@
 table{
-    width: 100%;
-    border-collapse: collapse;
     border-spacing: 0;
+    font-size: 14pt;
   }
-
-  table th,table td{
-    padding: 10px 0;
+  table th{
+    padding: 10pt;
     text-align: center;
+    background-color: #a4b8f4;
   }
-
+  table td{
+    padding:10pt;
+    text-align: left;
+  }
   table tr:nth-child(odd){
-    background-color: #eee
+    background-color: #dbe2f7;
   }
   strong{
-    border-bottom: double 3px;
+    color: #364e96;/*文字色*/
+    padding: 5pt 0.5em;/*上下 左右の余白*/
+    background: transparent;/*背景透明に*/
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+    border: gray 2px solid; 
   }
-
+  p{
+    font-size: 16pt;
+  }
   body{
     margin: 50px;
+    background-color: aliceblue;
   }
   header {
-    width: 100%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    background-color: black;
+    background-color: #4e6cc5;
     color: white;
-
   }
   header .headline{
     font-size: 32px;
